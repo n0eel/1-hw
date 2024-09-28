@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-image: url("./assets/images/main-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-input {
+  background-image: url("./assets/images/search.svg");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position-y: center;
+  background-position-x: 20px;
+}
+
+.main-div {
+  background-image: url("./assets/images/friedns-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 890px;
+  position: relative;
+}
